@@ -1,0 +1,144 @@
+.all-cart{
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.empty-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+th{
+    padding: 8px;
+    border-bottom: 1px solid gray;
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px ridge gray;
+}
+.item-qty{
+    padding: 5px;
+}
+.icon{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.icon:hover{
+    color: red;
+}
+.empty-carts{
+    font-size: 19px;
+    font-weight: 600;
+}
+table{
+    width: 90vw;
+    padding: 5px;
+}
+.increase,.decrease{
+    cursor: pointer;
+}
+.carts-img{
+    width: 150px;
+    height: 160px;
+    padding: 5px 0;
+}
+.carts-tittle{
+    width: 25%;
+}
+.cart-center{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0 10px;
+}
+.resetcart{
+    font-size: 16px;
+    padding: 10px 35px;
+    cursor: pointer;
+    background-color: rgb(253, 0, 0);
+    color:  rgb(217, 225, 225);
+    border: 1px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    
+
+    
+
+}
+.resetcart:hover{
+    letter-spacing: 0.3px
+    
+
+}
+.shoppingLink{
+      font-size: 16px;
+    padding: 16px 35px;
+    background-color:   rgb(25, 4, 58);
+    color:  rgb(232, 231, 231);
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+.shoppingLink:hover{
+    letter-spacing: 0.3px;
+}
+.cart-right{
+    margin-top: 30px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    max-width: 250px;
+    padding: 1px 10px;
+}
+.payment{
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 35px;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color:  rgb(232, 231, 231);
+    background-color:   rgb(25, 4, 58);
+
+}
+.payment:hover{
+    letter-spacing: 0.3px;
+
+}
+@media screen and (max-width:900px){
+    .all-cart{
+        padding: 8px;
+    }
+    th{
+    padding: 0px;
+    border-bottom: 1px solid gray;
+}
+   .carts-img{
+    width: 60px;
+    height: 120px;
+    padding: 5px 0;
+}
+tr{
+    padding: 0 10px;
+}
+}
+@media screen and (max-width:420px){
+   .carts-img{
+    width: 70px;
+    height: 90px;
+    padding: 5px 0;
+}
+.item-qty{
+    padding: 1px;
+}
+.increase,.decrease{
+    padding: 1px;
+}
+}

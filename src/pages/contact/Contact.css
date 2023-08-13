@@ -1,0 +1,121 @@
+.contact-wrap{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contact{
+    height: 30vh;
+    background-color: rgb(25, 4, 58);
+    color:  rgb(217, 225, 225);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact-body h1{
+    margin-top: 70px;
+}
+.contact-box{
+    line-height: 1;
+
+}
+
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+
+} 
+.hr{
+    height: 2px;
+    background-color: rgb(226, 23, 23);
+    width: 15%;
+    position: relative;
+    bottom: 10px;
+    
+}
+.map{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.form{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(244, 242, 242);
+    padding: 40px;
+}
+.form h1{
+    font-weight: 700;
+}
+.formone{
+    margin-top: 30px;
+}
+.formdetails{
+    margin: 5px 0;
+    font-size: 16px;
+    width: 90%;
+    padding: 10px 20px;
+    outline: none;
+    color: gray;
+    
+}
+iframe{
+    margin: 40px 0;
+    width: 100%; 
+
+}
+.contact-button button{
+    background-color: rgb(25, 4, 58);
+    border: none;
+    color:  rgb(237, 235, 235);
+    padding: 12px 35px;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.contact-icons{
+    margin: 10px;
+}
+@media screen and (max-width:900px){
+    .contact_info{
+        padding: 10px;
+
+
+
+
+}
+.contact-body h1{
+    padding: 1px 20px;
+    text-align: center;
+}
+.contact-line{
+    padding: 0 10px;
+    text-align: center;
+}
+}
+@media screen and (max-width:420px){
+    .contact_info{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .opening-hours{
+        justify-self: center;
+        position: relative;
+        left: 14px;
+
+    }
+    .contact-information{
+        justify-self: center;
+        position: relative;
+        right: 14px;
+
+    }
+    .follow-us{
+        justify-self: center;
+        position: relative;
+        right: 8px;
+
+    }
+}

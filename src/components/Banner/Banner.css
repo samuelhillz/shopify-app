@@ -1,0 +1,158 @@
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner-box{
+    padding: 0 120px;
+    height: 84vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+.banner-box h2{
+    font-size: 40px;
+}
+.banner-box span{
+    color: red;
+    font-weight: 900;
+}
+.banner-details{
+    position: relative;
+    bottom: 20px;
+    color: rgb(59, 57, 57);
+}
+@media screen and (max-width:1000px){
+    .banner-box h2{
+    font-size: 34px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 29px;
+}
+.banner-details{
+    position: relative;
+    right: 29px;
+}
+    
+    
+}
+@media screen and (max-width:1100px){
+    .banner-box h2{
+    font-size: 40px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 39px;
+}
+.banner-details{
+    position: relative;
+    right: 39px;
+}
+    
+    
+}
+@media screen and (max-width:1000px){
+    .banner-box h2{
+    font-size: 34px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 29px;
+}
+.banner-details{
+    position: relative;
+    right: 29px;
+}
+    
+    
+}
+
+@media screen and (max-width:900px){
+    .banner-box h2{
+    font-size: 33px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 29px;
+}
+.banner-details{
+    position: relative;
+    right: 29px;
+}
+    
+    
+}
+@media screen and (max-width:760px){
+    .banner-box h2{
+    font-size: 30px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 39px;
+}
+.banner-details{
+    position: relative;
+    right: 39px;
+}
+    
+    
+}
+@media screen and (max-width:600px){
+    .banner-box h2{
+    font-size: 31px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 33px;
+}
+.banner-details{
+    position: relative;
+    right: 29px;
+}
+    
+    
+}
+@media screen and (max-width:500px){
+    .banner-box h2{
+    font-size: 30px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 33px;
+}
+.banner-details{
+    position: relative;
+    right: 33px;
+}
+    
+    
+}
+@media screen and (max-width:420px){
+    
+
+    .banner-box h2{
+    font-size: 24px;
+    
+    }
+    .banner-box h2{
+    position: relative;
+    right: 69px;
+}
+.banner-details{
+    position: relative;
+    right: 69px;
+}
+    
+    
+}
